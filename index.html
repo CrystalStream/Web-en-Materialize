@@ -4,21 +4,28 @@
 	<meta charset="UTF-8">
 	<title>Materialize</title>
 	<link rel="stylesheet" href="css/materialize.min.css">	
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-	<nav>
-	    <div class="nav-wrapper">
+<body>	
+  	<nav>
+	    <div class="nav-wrapper light-green darken-1">
 	      <a href="#" class="brand-logo">Materialize</a>
-	      <ul id="nav-mobile" class="right hide-on-med-and-down">
-	        <li><a href="#">Inicio</a></li>
-	        <li><a href="#">About</a></li>
-	        <li><a href="#">Contacto</a></li>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <ul class="right hide-on-med-and-down black-text">
+	        <li><a href="#"><i class="material-icons left">home</i>Home</a></li>
+	        <li><a href="#"><i class="material-icons left">assignment_ind</i>About</a></li>
+	        <li><a href="#"><i class="material-icons left">mail</i>Contacto</a></li>	   
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="#"><i class="material-icons right">home</i>Home</a></li>
+	        <li><a href="#"><i class="material-icons right">assignment_ind</i>About</a></li>
+	        <li><a href="#"><i class="material-icons right">mail</i>Contacto</a></li>	       
 	      </ul>
 	    </div>
   	</nav>
-	
 
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/materialize.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
